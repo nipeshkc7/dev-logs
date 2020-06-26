@@ -25,6 +25,12 @@ This opens up vim again, where you can update the commit message
 
 Reference: [link](https://www.internalpointers.com/post/squash-commits-into-one-git)
 
+### Making local master exactly same as origin
+
+```
+git fetch origin
+git reset --hard origin/master
+```
 
 ## Vim
 
