@@ -40,3 +40,20 @@ git reset --hard origin/master
 * **ESC** : Escape text-inserting mode
 * **:x** : Save and quit
 
+## Express
+
+### Using middlewares
+
+You can use middlewares to intercept the (req,res,next) objects before the controllers.
+
+```javascript
+
+app.get('/home',middleware1 , (req,res) =>{ ... })
+// Or for multiple middlewares
+app.get('/home',[middleware1 , middleware2] , (req,res) =>{ ... })
+
+```
+
+### Tip: use return res.end() or return next()
+
+It is important to use the return keyword in some cases to complete the execution of the function, sometimes when there is no return keyword, the preceeding code will run and may end up with errors.
