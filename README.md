@@ -32,6 +32,20 @@ git fetch origin
 git reset --hard origin/master
 ```
 
+However **DO NOT** hard reset when on a separate branch. If so, do a reflog to view the commit before the 'reset', and hard reset into that commit.
+
+```
+git reflog
+
+```
+
+Then find the commit hash and reset.
+
+```
+git reset --hard <commit-hash> 
+
+```
+
 ## Vim
 
 ### Keys
@@ -53,6 +67,8 @@ app.get('/home',middleware1 , (req,res) =>{ ... })
 app.get('/home',[middleware1 , middleware2] , (req,res) =>{ ... })
 
 ```
+
+However avoid using middlewares if possible, as it intercepts any and every request and slows it down.
 
 ### Tip: use return res.end() or return next()
 
