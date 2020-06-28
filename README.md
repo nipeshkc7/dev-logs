@@ -46,6 +46,29 @@ git reset --hard <commit-hash>
 
 ```
 
+
+### Git rebase vs Git merge
+
+Git rebase, carries all the commits of a feature branch and puts it infront of master when you use the commands:
+
+```
+git checkout feature-branch
+git rebase master
+```
+puts all the commits in the feature branch infront of master.
+
+While when you merge a master branch like so:
+
+```
+git checkout feature-branch
+git merge master
+```
+You are adding changes from the master branch to the feature branch, and you will need a new commit for the merged changes.
+
+Keep in mind that, merge is a non-destructive command while rebase is a destructive command.
+
+More info on this [link]([https](https://www.atlassian.com/git/tutorials/merging-vs-rebasing))
+
 ## Vim
 
 ### Keys
