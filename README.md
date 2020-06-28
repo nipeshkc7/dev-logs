@@ -2,7 +2,7 @@
 
 This is a collection of important notes gathered throughout working on various projects and contributing to Open-Source repositories.
 
-## Github
+## Git
 
 ### Squashing multiple commits into one.
 
