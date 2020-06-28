@@ -19,7 +19,7 @@ This opens up the last 2 commits in your editor (probably vim)
 3. Change commit message with the following command.
 
 ```
-    git commit --append
+    git commit --amend
 ```
 This opens up vim again, where you can update the commit message
 
