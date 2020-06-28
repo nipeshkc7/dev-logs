@@ -36,14 +36,12 @@ However **DO NOT** hard reset when on a separate branch. If so, do a reflog to v
 
 ```
 git reflog
-
 ```
 
 Then find the commit hash and reset.
 
 ```
 git reset --hard <commit-hash> 
-
 ```
 
 
