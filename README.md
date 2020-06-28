@@ -32,6 +32,17 @@ git fetch origin
 git reset --hard origin/master
 ```
 
+Or, better way, **rebase**:
+```
+git fetch
+git pull --rebase origin master
+```
+or
+```
+git fetch
+git rebase origin/master
+```
+
 However **DO NOT** hard reset when on a separate branch. If so, do a reflog to view the commit before the 'reset', and hard reset into that commit.
 
 ```
