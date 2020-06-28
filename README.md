@@ -69,6 +69,25 @@ Keep in mind that, merge is a non-destructive command while rebase is a destruct
 
 More info on this [link]([https](https://www.atlassian.com/git/tutorials/merging-vs-rebasing))
 
+
+### What is origin/master?
+
+origin/master is the local copy of branch 'master' on remote named 'origin'
+
+Example: 
+
+```
+git fetch origin master
+```
+Or
+```
+git fetch
+```
+
+This command copies the 'master' branch from 'origin' and and the local copy will be named origin/master
+
+So git fetch basically updates local copy (in this case origin/master).
+
 ## Vim
 
 ### Keys
