@@ -116,6 +116,10 @@ These are some of the really useful plugins for vim:
 * **GitGutter** : Shows Git difference in the gutter.
 * **Ctrl+P** : Easily navigate through recent files.
 
+### vimrc ultimate configurations
+
+[amix/vimrc](https://github.com/amix/vimrc) comes with the ultimate vim configuration, including all the above plugins and color and font stuff.
+
 ## Express
 
 ### Using middlewares
