@@ -108,6 +108,14 @@ So git fetch basically updates local copy (in this case origin/master).
 
 Navigation is done by the 'j', 'k', 'l', 'h' keys. Moving back and forth through words is done by the keys 'w', 'e', 'b'.
 
+### Plugins
+
+These are some of the really useful plugins for vim:
+
+* **NERDTree** : Shows a tree structure for the files and directories.
+* **GitGutter** : Shows Git difference in the gutter.
+* **Ctrl+P** : Easily navigate through recent files.
+
 ## Express
 
 ### Using middlewares
