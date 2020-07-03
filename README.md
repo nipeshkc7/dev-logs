@@ -104,6 +104,10 @@ So git fetch basically updates local copy (in this case origin/master).
 * **ESC** : Escape text-inserting mode
 * **:x** : Save and quit
 
+### Navigation
+
+Navigation is done by the 'j', 'k', 'l', 'h' keys. Moving back and forth through words is done by the keys 'w', 'e', 'b'.
+
 ## Express
 
 ### Using middlewares
