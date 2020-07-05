@@ -120,6 +120,12 @@ These are some of the really useful plugins for vim:
 
 [amix/vimrc](https://github.com/amix/vimrc) comes with the ultimate vim configuration, including all the above plugins and color and font stuff.
 
+### vim navigation tips
+
+* Use Ctrl + } to navigate to downwards, more logical.
+* Use T + <any-letter> or F + <any-letter> to move directly to that word in the line.
+
+
 ## Express
 
 ### Using middlewares
