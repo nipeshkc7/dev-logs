@@ -139,3 +139,11 @@ However avoid using middlewares if possible, as it intercepts any and every requ
 ### Tip: use return res.end() or return next()
 
 It is important to use the return keyword in some cases to complete the execution of the function, sometimes when there is no return keyword, the preceeding code will run and may end up with errors.
+
+## Docker
+
+### Tips
+
+* When using alpine as the base image in a Dockerfile, remember you won't be able to use debian commands like 'sudo apt-install',
+* 'docker-compose up' builds and runs the app, but might need to rebuild if you've made changes to the dockerfile.
+* Remember 'Docker' runs in an isolated environment and has no additional apps installed unless specifiedi (like chromium for example).
