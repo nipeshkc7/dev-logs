@@ -104,10 +104,6 @@ So git fetch basically updates local copy (in this case origin/master).
 * **ESC** : Escape text-inserting mode
 * **:x** : Save and quit
 
-### Navigation
-
-* Navigation is done by the 'j', 'k', 'l', 'h' keys. Moving back and forth through words is done by the keys 'w', 'e', 'b'.
-
 ### Plugins
 
 These are some of the really useful plugins for vim:
@@ -124,7 +120,7 @@ These are some of the really useful plugins for vim:
 
 * Use Ctrl + } to navigate to downwards, more logical.
 * Use T + <any-letter> or F + <any-letter> to move directly to that word in the line.
-
+* Navigation is done by the 'j', 'k', 'l', 'h' keys. Moving back and forth through words is done by the keys 'w', 'e', 'b'.
 
 ## Express
 
