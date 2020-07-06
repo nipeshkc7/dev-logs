@@ -106,7 +106,7 @@ So git fetch basically updates local copy (in this case origin/master).
 
 ### Navigation
 
-Navigation is done by the 'j', 'k', 'l', 'h' keys. Moving back and forth through words is done by the keys 'w', 'e', 'b'.
+* Navigation is done by the 'j', 'k', 'l', 'h' keys. Moving back and forth through words is done by the keys 'w', 'e', 'b'.
 
 ### Plugins
 
