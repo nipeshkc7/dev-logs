@@ -149,3 +149,9 @@ It is important to use the return keyword in some cases to complete the executio
 * When using alpine as the base image in a Dockerfile, remember you won't be able to use debian commands like 'sudo apt-install',
 * 'docker-compose up' builds and runs the app, but might need to rebuild if you've made changes to the dockerfile.
 * Remember 'Docker' runs in an isolated environment and has no additional apps installed unless specifiedi (like chromium for example).
+
+## OAuth
+
+[PassportJS](https://passportjs.org) is a great tool for authentication in NodeJS apps, However keep in mind, not all modules are OAuth2.
+
+* For example, twitter is OAuth 1.0a whereas linked-in and google is OAuth2.0
