@@ -155,3 +155,12 @@ It is important to use the return keyword in some cases to complete the executio
 [PassportJS](https://passportjs.org) is a great tool for authentication in NodeJS apps, However keep in mind, not all modules are OAuth2.
 
 * For example, twitter is OAuth 1.0a whereas linked-in and google is OAuth2.0
+
+## Npm on Ubuntu
+
+Sometimes ubuntu won't let you install packages, with error 'EACESS no permissions'. Then,
+
+```
+sudo npm install --save-dev  --unsafe-perm=true --allow-root
+
+```
