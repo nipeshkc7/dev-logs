@@ -142,6 +142,10 @@ However avoid using middlewares if possible, as it intercepts any and every requ
 
 It is important to use the return keyword in some cases to complete the execution of the function, sometimes when there is no return keyword, the preceeding code will run and may end up with errors.
 
+### Cors
+
+Use Cors to allow cross origin request.
+
 ## Docker
 
 ### Tips
@@ -172,3 +176,4 @@ sudo npm install --save-dev  --unsafe-perm=true --allow-root
 * Use units like (fr) for gridboxes
 
 [Link to glitch.me video](https://1linelayouts.glitch.me/)
+
