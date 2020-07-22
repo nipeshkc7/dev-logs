@@ -164,3 +164,11 @@ Sometimes ubuntu won't let you install packages, with error 'EACESS no permissio
 sudo npm install --save-dev  --unsafe-perm=true --allow-root
 
 ```
+
+## CSS Handy tips
+
+* User gridboxes and flexboxes
+* Minmax and clamp
+* Use units like (fr) for gridboxes
+
+[Link to glitch.me video](https://1linelayouts.glitch.me/)
