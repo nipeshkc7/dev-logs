@@ -177,3 +177,10 @@ sudo npm install --save-dev  --unsafe-perm=true --allow-root
 
 [Link to glitch.me video](https://1linelayouts.glitch.me/)
 
+## React
+
+### Hooks
+
+* UseEffect runs everytime the app renders, second parameter determines when it renders, for eg useEffect(()=>{}, []) runs on first load, second paramenter can be a state and useeffect will run when the state updates.
+* setState will not update the state automatically, so better to have a useEffect that will do stuff when it updates.
+* window.localstorage won't be available until the app renders on the client side.
