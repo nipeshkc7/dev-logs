@@ -185,8 +185,8 @@ sudo npm install --save-dev  --unsafe-perm=true --allow-root
 * setState will not update the state automatically, so better to have a useEffect that will do stuff when it updates.
 * window.localstorage won't be available until the app renders on the client side.
 
-### Cloud Services (GCP)
+## Cloud Services (GCP)
 
-## Cloud Run
+### Cloud Run
 
 Cloud Run lets you run stateless containers which scales up very nicely. You don't have to pay anything until you start getting millions of requests. However CloudSQL does cost money from the start, (its a way of introducing states in the app)
