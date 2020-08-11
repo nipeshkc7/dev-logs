@@ -1,3 +1,4 @@
+_Note: All the content in here has been moved to [11ty Blog](https://blog.arpankc.com)_
 # Dev Logs
 
 This is a collection of important notes gathered throughout working on various projects and contributing to Open-Source repositories.
